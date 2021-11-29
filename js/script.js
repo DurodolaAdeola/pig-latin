@@ -26,7 +26,7 @@ $(document).ready(function(){
         let newStr= "";
         if (vowels.indexOf(userInput[0])> -1) {
             newStr = userInput +"acedu";
-            console.log(newStr)
+            $("#output").text(newStr)
         }
         
         else if(twoLetter==="qu"){
@@ -34,7 +34,7 @@ $(document).ready(function(){
         }
         
         else{
-            console.log(remove + "ayac")
+            $("#output").text(remove + "ayac")
         }
 
     })
